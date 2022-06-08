@@ -15,7 +15,7 @@ jib {
 	}
 	container {
 		jvmFlags = ["-Xms128m", "-Xmx128m"]
-		mainClass = "com.example.demo.StartJpaApplication"
+//mainClass = "com.example.demo.StartJpaApplication"
 	}
 }
 
