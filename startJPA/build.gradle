@@ -6,7 +6,6 @@ plugins {
 }
 
 jib {
-	container.mainClass = "StartJpaApplication"
 	from {
 		image = "openjdk:8"
 	}
