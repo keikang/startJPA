@@ -15,6 +15,7 @@ jib {
 	}
 	container {
 		jvmFlags = ["-Xms128m", "-Xmx128m"]
+		mainClass = "StartJpaApplication"
 	}
 }
 
