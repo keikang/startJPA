@@ -10,11 +10,12 @@ jib {
 		image = "openjdk:8"
 	}
 	to {
-		image = "startJPAonkube/devopstest"
+		image = "startJPAonKube/devopstest"
 		tags = ["latest"]
 	}
 	container {
 		jvmFlags = ["-Xms128m", "-Xmx128m"]
+		mainClass = "StartJpaApplication"
 	}
 }
 
